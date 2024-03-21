@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* SideBar */
+
+.active {
+    background-color: #5D5FEF;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-title {
+    color: black;
+}
+
+
+/* .nav-item:hover {
+    background-color: #5D5FEF;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-title:hover {
+    color: white;
+}
+
+a i:hover {
+    color: white;
+} */
+
+.active span {
+    color: white !important;
+}
+
+a i {
+    color: black;
+}
+
+.active a i {
+    color: white !important;
+}
+
+.link-title {
+    font-size: 14px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NavBar */
+
+.searchbar {
+    width: 200rem;
+}
+
+.searchicon {
+    color: #884DFF;
+}
+
+.input-group {
+    border-radius: 0.8rem;
+}
+
+.nav-right {
+    margin-right: 6rem;
+}
+
+.bell {
+    border: 1px solid black;
+    width: 3rem;
+    height: 3rem;
+    background-color: #FFFAF1;
+    margin-top: 0.3rem;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.search-area {
+    margin-right: 15rem;
+}
+
+.dropdown {
+    background-color: white;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.probox {
+    background-color: #5D5FEF;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 6rem;
+}
+
+.pro-btn {
+    background-color: white;
+    color: #5D5FEF;
+    width: 8rem;
+    border-radius: 0.5rem;
+    /* margin-top: 0.5rem;  */
+}
+
+.searchbar {
+    width: 200rem;
+}
+
+.drop-item {
+    font-size: 16px;
+}
+
+.drop-name {
+    font-size: 14px;
+}
+
+.bell {
+    border: 1px solid black;
+    width: 3rem;
+    height: 3rem;
+    background-color: #FFFAF1;
+    margin-top: 0.3rem;
+}
+
+.bell-active {
+    border-radius: 50%;
+}
+
+.searchhere {
+    padding-left: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.collepsed {
+    width: 5rem;
+}
+
+.collepsed .nav-item {
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.collepsed .side2 .title {
+    display: none !important;
+}
+
+.collepsed .nav-item span {
+    display: none !important;
+}
+
+.collepsed .card {
+    display: none;
+}
+
+.collepsed h3 {
+    display: none;
+}
+
+
+/* Sections */
+
+.section1 {
+    background-color: white;
+    border-radius: 1rem;
+    min-height: 21rem;
+}
+
+.section2 {
+    background-color: white;
+    border-radius: 1rem;
+    min-height: 21rem;
+}
+
+.section3 {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.section4 {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.section5 {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.section6 {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.section7 {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.export {
+    border: 1px solid black;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.chart {
+    background-color: #5D5FEF;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 5px 8px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/chevron-up.svg") !important;
+}
+
+.accordion-button::after {
+    background-image: url("../images/chevron-up.svg") !important;
+}
+
+.sec1-card {
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+}
+
+.c-text {
+    font-size: 13px;
+    color: #4079ED;
+}
+
+.icons {
+    color: white;
+}
+
+.accordion-body {
+    font-size: 1rem;
+}
+
+.accordion-button {
+    background-color: #5D5FEF;
+    color: white;
+}
+
+.accordion-item {
+    border: 1px solid #5D5FEF;
+}
+
+.table-list {
+    font-size: 14px;
+}
+
+.edit {
+    color: #0095FF;
+}
+
+.delete {
+    color: #FA5A7D;
+}
+
+.readmore {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #5D5FEF;
+}
+
+.data-btn1 {
+    background-color: #F0F9FF;
+    border: 1px solid #0095FF;
+    color: #0095FF;
+}
+
+.data-btn {
+    width: 3.5rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+}
+
+.data-btn2 {
+    background-color: #F0FDF4;
+    border: 1px solid #00E58F;
+    color: #00E58F;
+}
+
+.data-btn3 {
+    background-color: #FBF1FF;
+    border: 1px solid #884DFF;
+    color: #884DFF;
+}
+
+.data-btn4 {
+    background-color: #FEF6E6;
+    border: 1px solid #FF8900;
+    color: #FF8900;
+}
+
+.content {
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
+.readmorebtn {
+    background-color: #5D5FEF;
+    color: white;
+}
+
+.activated {
+    background-color: #5D5FEF;
+    color: white;
+}
+
+.productbtn {
+    padding: 0.5rem;
+    width: 8rem;
+}
+
+@media screen and (max-width:615px) {
+    .sidebar {
+        display: none !important;
+    }
+    .collepsed {
+        display: flex !important;
+    }
+    .collepsed span {
+        display: none !important;
+    }
+    .collepsed .card {
+        display: none !important;
+    }
+    .search {
+        display: none !important;
+    }
+    .prologo {
+        display: none !important;
+    }
+    .input-group {
+        width: 6rem;
+    }
+}
+
+@media screen and (min-width:606px) {
+    .sidebar span {
+        display: flex !important;
+    }
+    .sidebar .card {
+        display: none !important;
+    }
+    .collepsed span {
+        display: flex !important;
+    }
+    .collepsed .card {
+        display: none !important;
+    }
+    .search {
+        display: block !important;
+    }
+    .prologo {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .sidebar span {
+        display: flex !important;
+    }
+    .sidebar .card {
+        display: flex !important;
+    }
+    .collepsed span {
+        display: none !important;
+    }
+    .collepsed .card {
+        display: none !important;
+    }
+    .search {
+        display: block !important;
+    }
+    .prologo {
+        display: block !important;
+    }
+}
+
+.position-relative {
+    display: inline-block;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 0;
+    right: -0.75em;
+}
+
+.badge {
+    width: 6px;
+    height: 6px;
+    padding: 0;
+}
